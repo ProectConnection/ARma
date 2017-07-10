@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AYW78Kz/////AAAAGTF3CATeuEnctp1t4834DuEFg8HO5k5/UD2xc03d13T7Pu8XCODiYA8ssPPSShkrYdSjhlcAxISmdq9e+mVFLtoLhZzlw4IEXuzUUyWwP0Vu6M5xpvj8+CucJZ1w5DAFm6C6gFG+K/A2wcNVioQA92zwXnafc4LuHrjyq5+mi92PP8ZiAIQ96KXUc5ziztiNrM21V6CYU2WBFeSdaRAygwCrnFKdW7/2kurVtQGiRPO3LruaWDk9amioDjWhQZo0aiJqLmd0JMS7qcMEl/QqFmkXvYRXT4+mxwyJEWNy7f4Tk8hnchNhO4QUGF2fjUYyWFMK+2oSoqRMtq7yHlsdaLNvMDY6Xote66PABH4Cnfkg
+    vuforiaLicenseKey: AQlIWzf/////AAAAGX2t53o8V0pnq9ikKNYzKkaJtFDQwNHpi5drOGVyn0vK/0U/NgvWQJAOYK2IdXkB3rlkRCqcit01SmCsGN3q1WxT0OBgYVgEpHF/rH5k+HCfTlnRPAcwubwz5ynEeE38zUZnOJt7pRokG267ojrCWpDJLxc0Konr4kkU3OVG0NjjJcyVLkfd4vR47v1J0QTYq6ZARaXuH+BNLgD6UYJax0NuDOWiIRXGL0SKw22NGr8K9grZsbHa8xFDcNwOJavIfQMtpm6pInBqxSgeCjnIZtteOh+r1JpNsZWgYqdAHlbuDcYPqCWPID68JbpwOI4iSvefSxKhRUGEWIIG4NeuEO/gRKOW2/mdTW9ialg//QdA
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - obj1
     - mar2
     dataSetsToActivate:
+    - obj1
     - mar2
   videoBackground:
     clippingMode: 0
