@@ -23,10 +23,12 @@ public class screen : MonoBehaviour {
         byte[] bytes = screenShot.EncodeToPNG();
         UnityEngine.Object.Destroy(screenShot);
 
-        string fileName = "cap_" + DateTime.Now.ToString("yyyyMMddHHmmssfff") + ".png";
-        //File.WriteAllBytes("C:/Users/nwuser.DA/AppData/LocalLow/hoge/ARCamera", bytes);
-        File.WriteAllBytes(Application.persistentDataPath + "/" + fileName, bytes);
+        string fileName = "test_" + System.DateTime.Now.Minute.ToString()  + ".png";
+         //Application.CaptureScreenshot("../../../../DCIM/Camera/" + fileName);
+        //Application.CaptureScreenshot("phone/DCIM/Camera/" + fileName);
+        File.WriteAllBytes(Application.persistentDataPath + "/" + fileName, bytes); //
     }
+
 	void Start () {
 		
 	}
